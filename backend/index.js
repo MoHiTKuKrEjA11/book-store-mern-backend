@@ -17,7 +17,7 @@ app.use(express.json());
 
 //option2 allow only custom origins
 app.use(cors({
-  origin:'https://book-store-mern-front.vercel.app',
+  origin:'https://kukrejamc-bookstore.netlify.app',
   methods:['GET','POST','PUT','DELETE'],
   allowHeaders:['Content-Type'],
 }));
